@@ -25,6 +25,9 @@ var grid = function ()
         ctx.strokeStyle = "#f0f0f0";
         ctx.stroke();
     }
+    
+    ctx.fillStyle="#FF0000";
+    ctx.fillRect(0, 0, blockSize, blockSize);
 }
 
 (function ()
