@@ -11,7 +11,7 @@
     
     var b1 = new Block(ctx, blockSize);
     
-    var b2 = new Block(ctx, blockSize, 3 * blockSize, 5 * blockSize);
+    var b2 = new Block(ctx, blockSize, 3 * blockSize, 5 * blockSize, "#ff8000");
     
     var scene = new Scene(ctx, c);
     scene.pushElement(g);
