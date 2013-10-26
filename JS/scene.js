@@ -24,11 +24,7 @@ var Scene = function (ctx, c)
     
     var startAnimate = function ()
     {
-<<<<<<< HEAD:JS/scene.js
-        animationHandle = window.setInterval(drawScene, 500);
-=======
         animationHandle = window.setInterval(drawScene, 400);
->>>>>>> eb9fed4a44ed729a5ddf0fadf0030faa83eb0e5b:JS/animate.js
     }
     
     var endAnimate = function ()
