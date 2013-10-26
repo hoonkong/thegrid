@@ -11,7 +11,11 @@
     
     var b1 = new Block(ctx, blockSize);
     
+<<<<<<< HEAD
     var b2 = new Block(ctx, blockSize, 3 * blockSize, 5 * blockSize, "#ff8000");
+=======
+    var b2 = new Block(ctx, blockSize, 3 * blockSize, 5 * blockSize, "#ffba00");
+>>>>>>> eb9fed4a44ed729a5ddf0fadf0030faa83eb0e5b
     
     var scene = new Scene(ctx, c);
     scene.pushElement(g);
